@@ -7,5 +7,5 @@
  
  $content="Nombre: ". $name . "\nCorreo: " . $email . "\nTeléfono: " . $phone . "\nMensaje: " . $message;
  mail($emailAddress,"Contacto",$content);
-
+hearder("Location:gracias.html");
 ?>
